@@ -1,0 +1,9 @@
+
+Twitter package changed the authentication from 
+
+registerTwitterOAuth(twitCred)
+
+To 
+
+setup_twitter_oauth(consumerKey ,consumerSecret,access_token,
+                     access_token_secret)
