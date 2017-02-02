@@ -25,3 +25,7 @@ access_token = "XXX"
 access_token_secret = "XXX" 
 setup_twitter_oauth(consumerKey ,consumerSecret,access_token,
                      access_token_secret)
+
+# Grab latest tweets
+tweets_movie <- searchTwitter('@Nameisnani', n=150)
+
